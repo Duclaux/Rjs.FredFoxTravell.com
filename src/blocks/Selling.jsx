@@ -11,7 +11,7 @@ import Paris from '../assets/paris.jpg'
 function Selling() {
   return (
     <Container>
-        <Title h1='Top Selling' h2='Top Destinations'/>
+        <Title h1='Top Selling' h2='Top Destinations' text='text-center'/>
         
 
         <div className='space-y-10 lg:space-y-0 lg:flex lg: items-center lg:justify-between mt-[30px] lg:mt-[60px]'>

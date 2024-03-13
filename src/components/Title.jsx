@@ -4,7 +4,7 @@ import React from 'react'
 function Title(props) {
   return (
     <motion.div 
-      className='text-center space-y-5'
+      className={`space-y-5 ${props.text}`}
       initial={{
         y:40,
         opacity:0

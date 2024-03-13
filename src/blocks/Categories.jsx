@@ -16,7 +16,7 @@ import Bg_red from '../assets/bg_red.svg'
 function Categories() {
   return (
     <Container styles='relative mb-[70px] lg:mb-[123px'>
-        <Title h1='CATEGORY' h2='We Offer Best Services'/>
+        <Title h1='CATEGORY' h2='We Offer Best Services' text='text-center'/>
         <img src={Points} alt="" className='hidden lg:flex absolute top-0 right-0'/>
 
         <div className='space-y-10 lg:space-y-0 lg:flex lg:items-center lg:justify-between mt-[30px] lg:mt-[60px]'>
